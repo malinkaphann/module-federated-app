@@ -1,11 +1,8 @@
 # Module-Federated Ecommerce Backend Application
 
-
-``
-Backend App and User App use Carbon Design System; 
+**Backend App** and **User App** use [Carbon Design System](https://www.carbondesignsystem.com/); 
 so at first build, it takes some amount of time to finish; 
 be patient!
-``
 
 ![architecture](./architecture/design.png)
 
