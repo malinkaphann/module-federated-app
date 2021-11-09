@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Dashboard from "@/components/Dashboard";
 import Users from "@/components/Users";
 import Products from "@/components/Products";
@@ -9,7 +9,7 @@ import "@/shared/styles/global.scss";
 import "@/styles/main.scss";
 
 const App = ({ history }) => (
-  <BrowserRouter history={history}>
+  <HashRouter history={history}>
     <Routes>
       <Route path="/" element={<Dashboard />} />
       <Route path="dashboard" element={<Dashboard />} />
@@ -17,6 +17,6 @@ const App = ({ history }) => (
       <Route path="products" element={<Products />} />
       <Route path="blog" element={<Blog />} />
     </Routes>
-  </BrowserRouter>
+  </HashRouter>
 );
 ReactDOM.render(<App />, document.getElementById("app"));
