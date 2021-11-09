@@ -51,8 +51,8 @@ module.exports = {
       name: "backend",
       filename: "remoteEntry.js",
       remotes: {
-        dashboard: "dashboard@http://localhost:8081/remoteEntry.js",
-        user: "user@http://localhost:8082/remoteEntry.js"
+        dashboard: "dashboard@standalone-dashboard.vercel.app/remoteEntry.js",
+        user: "user@https://standalone-user.vercel.app/remoteEntry.js"
       },
       exposes: {},
       shared: {
