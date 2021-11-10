@@ -15,6 +15,37 @@ Best way to fix it is to only import those components' styles which are needed.
 - [Module Federation](https://webpack.js.org/concepts/module-federation/)
 - [Carbon Design System](https://www.carbondesignsystem.com/)
 
+
+## How to run?
+
+
+### User Web Application
+
+```
+yarn && yarn start:live
+```
+
+open a browser to `http://localhost:8082`
+
+
+### Dashboard Web Application
+
+```
+yarn && yarn start:live
+```
+
+open a browser to `http://localhost:8081`
+
+
+### Backend Web Application
+
+```
+yarn && yarn start:live
+```
+
+open a browser to `http://localhost:8080`
+
+
 ## Live
 
 You can access all of these applications in here.
@@ -23,6 +54,6 @@ You can access all of these applications in here.
 - [Dashboard App](https://standalone-dashboard.vercel.app/)
 - [Backend App](https://backend-app.vercel.app/)
 
-More explanation detail about this example could be found in [here](https://malinka.dev/blog).
+More explanation detail about this example could be found in [here](https://malinka.dev/blog/mf/module-federated-app).
 
 Thank to [Jack Herrington](https://www.youtube.com/channel/UC6vRUjYqDuoUsYsku86Lrsw) for his amazing videos about the module federation and the cli.
