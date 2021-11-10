@@ -5,7 +5,7 @@ const ModuleFederationPlugin = require("webpack/lib/container/ModuleFederationPl
 const deps = require("./package.json").dependencies;
 module.exports = {
   output: {
-    publicPath: "https://standalone-user.vercel.app",
+    publicPath: "https://standalone-user.vercel.app/",
   },
 
   resolve: {
