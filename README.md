@@ -6,7 +6,6 @@ be patient!
 
 Best way to fix it is to only import those components' styles which are needed.
 
-
 ![architecture](./architecture/design.png)
 
 ## Technologies
